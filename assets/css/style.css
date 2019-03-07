@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+/* BODY */
+body {
+background: url(../Images/hexellence_@2X.png);
+}
+
+/* HEADER */
+#masterhead {
+  background-color: #f8f9fa!important;
+}
+
+a.navbar-brand {
+  background-color: #67bffa;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 500;
+  padding: 10px;
+  margin-left: 30px;
+}
+
+a.nav-link:first-child {
+  border-left: none;
+}
+
+/* CONTENT */
+#main-container {
+  padding-top: 20px;
+}
+
+.main-section {
+  float: left;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 0 40px;
+  padding: 30px;
+  background:#ffffff;
+  border: 1px solid #dddddd;
+}
+
+h1 {
+  color: #67bffa;
+  border-bottom: 2px solid #dddddd;
+}
+
+img.auth-image {
+  width: 100%;
+  max-width: 200px;
+  border: 2px solid #67bffa;
+}
+
+/* PORTFOLIO */
+img {
+  width: 300px;
+  float: none;
+}
+
+h3 {
+  background-color: #67bffa;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px;
+  width: 300px;
+}
+
+.work {
+  margin: 10px auto;
+  float: left;
+}
+
+/* CONTACT */
+#btn {
+  color: #67bffa;
+  border: 1px solid #67bffa;
+}
+
+#btn:hoover {
+  background-color: #67bffa
+  ;
+  color: #dddddd;
+}
+
+/* FOOTER */
+footer {
+  background: #666666;
+  color: #cccccc;
+  text-align: center;
+  font-size: 12px;
+  height: 50px;
+  border-top: 8px solid #67bffa;
+  padding: 30px 0;
+  clear: both;
+  }
+  
+
+
+  
