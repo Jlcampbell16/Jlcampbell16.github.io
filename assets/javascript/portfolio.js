@@ -1,0 +1,3 @@
+$("#psychicLetter").on("click" function () {
+    
+})
