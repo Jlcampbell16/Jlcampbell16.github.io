@@ -53,6 +53,7 @@ img.auth-image {
 /* PORTFOLIO */
 img {
   width: 300px;
+  height: 300px;
   float: none;
 }
 
