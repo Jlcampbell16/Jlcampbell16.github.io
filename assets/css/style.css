@@ -1,28 +1,62 @@
 * {
   box-sizing: border-box;
 }
+
 /* BODY */
 body {
 background: url(../Images/hexellence_@2X.png);
+font-family: Arial, Helvetica, sans-serif;
 }
 
-/* HEADER */
-#masterhead {
-  background-color: #f8f9fa!important;
+html {
+  position: relative;
+  min-height: 100%;
 }
 
-a.navbar-brand {
-  background-color: #67bffa;
-  color: #ffffff;
-  font-size: 28px;
-  font-weight: 500;
+main {
+  margin:80px 0;
+}
+
+.block {
+  background-color: #ffffff;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.block-header {
+  color: #67bffa;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+/* ____________________________________________________________________________________________ */
+/* NAV BAR */
+
+#logo {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  background: #67bffa;
+  color: #ffffff;  
+  font-size: 24px;
+  font-weight: bold;
   padding: 10px;
-  margin-left: 30px;
 }
 
-a.nav-link:first-child {
-  border-left: none;
+.navbar-default .navbar-nav > li > a:hover {
+  color: #67bffa;
 }
+
+.navbar {
+  background: white;
+  border: none;
+}
+
+/* media query for nav background color change */
+@media only screen and (max-width: 767px) {
+  .navbar-header {
+    background-color: #67bffa;
+  }
+}
+/* ____________________________________________________________________________________________ */
+
 
 /* CONTENT */
 #main-container {
@@ -30,7 +64,6 @@ a.nav-link:first-child {
 }
 
 .main-section {
-  float: left;
   width: 100%;
   max-width: 960px;
   margin: 0 0 40px;
@@ -50,12 +83,24 @@ img.auth-image {
   border: 2px solid #67bffa;
 }
 
+#githubIcon,
+#linkedinIcon,
+#resumeIcon,
+#mailIcon {
+  width: 32px;
+  height: 32px;
+}
+
+.icons {
+  align-content: center;
+}
+
 /* PORTFOLIO */
 img {
   width: 300px;
   height: 300px;
-  float: none;
 }
+
 
 h3 {
   background-color: #67bffa;
@@ -67,20 +112,14 @@ h3 {
 
 .work {
   margin: 10px auto;
-  float: left;
 }
 
 /* CONTACT */
-#btn {
+#btn:hoover {
   color: #67bffa;
   border: 1px solid #67bffa;
 }
 
-#btn:hoover {
-  background-color: #67bffa
-  ;
-  color: #dddddd;
-}
 
 /* FOOTER */
 footer {
@@ -89,11 +128,77 @@ footer {
   text-align: center;
   font-size: 12px;
   height: 50px;
+  width: 100%;
   border-top: 8px solid #67bffa;
   padding: 30px 0;
-  clear: both;
+  position: absolute;
+  bottom: 0;
   }
   
 
+/* MEDIA QUERY */
 
+@media screen and (max-width:980px) {
+  #logo {
+    margin-left: 30px;
+  }
+
+  nav {
+  margin-right: 40px;
+}
+
+section.main-section {
+  width: 60%;
+  margin-left: 50px;
+}
+
+.work { 
+  width: 46%;
+}
+}
+
+@media screen and (max-width:768px) {
+section.main-section {
+  width: auto;
+  margin: 10px;
+ }
+
+ /* #contact-form {
+   min-width: 100%;
+ } */
+}
+
+@media screen and (max-width:640px) {
+  #masthead {
+  position: static;
+  top: 0;
+}
+
+a#logo, nav {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+} 
+
+#main-container {
+  padding: 5px;
+}
+
+img.auth-image {
+  width: 100%;
+}
+section.main-section {
+  width: 95%;
+}
+
+.work {
+  width: 100%;
+}
+
+.form#contact-form {
+   width: 100%
+  /* margin-left: 20px; */
+}
+
+}
   

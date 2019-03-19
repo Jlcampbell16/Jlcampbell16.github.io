@@ -19,76 +19,85 @@
 </head>
 
 <body>
-
-  <header id="masthead">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="masthead">
     <div class="container">
       <!-- sticky top -->
-      <nav class="navbar sticky-top navbar-light bg-light">
-        <a class="navbar-brand" href="#">Jenn Campbell</a>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
-            <!-- <span class="navbar-text">
-                  Navbar text with an inline element
-                </span> -->
-          </div>
-        </nav>
-      </nav>
-      </nav>
+      <!-- <nav class="navbar sticky-top navbar-light bg-light"> -->
+      <a class="navbar-brand" href="index.html" id="logo">Jenn Campbell</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+
+      </div>
     </div>
-  </header>
+    <!-- </nav> -->
+  </nav>
 
   <div id="main-container" class="container">
     <section class="main-section">
       <div class="row">
         <div class="col-md-12">
           <h1>About Me</h1>
-        </div>  
+        </div>
       </div>
 
       <div class="row">
-        <div class="col-md-3"> 
+        <div class="col-md-3">
           <img src="assets/images/WRA2018-155.jpg" class="auth-image" alt="Jenn Campbell">
         </div>
 
         <div class="col-md-9">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc
-            porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa.
-            Nunc
-            rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin
-            consectetur.</p>
-        
-          <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id
-            eros
-            iaculis, pulvinar quam eget, egestas mauris.</p>
+          <p>Hi! I'm Jenn and I am a full-time student enrolled in the Web Development Bootcamp at the University of
+            Denver.</p>
 
-          <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et
-            mi.
-            Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+          <p>With a degree in psychology and over a decade of experience in project and event management, I enjoy
+            observing people’s
+            behavior and then creating seamless, efficient, and engaging experiences for them. Aesthetics,
+            functionality, and navigation all contribute to an individual’s experience and directly impacts the users
+            response. Embarking on a new career as a Web Developer, I look forward to using my skills to create
+            attractive and purposeful web applications. </p>
+
+          <p>Feel free to poke around, or better yet, reach out to me directly!</p>
         </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <!-- ICONS FOR GITHUB, MAIL & LINKED IN -->
+            <div class="icons">
+              <img id="githubIcon" src="assets/images/GitHub-Mark-32px.png" alt="GitHub">
+              <img id="linkedinIcon" src="assets/images/social-linkedin 512x512.png" alt="LinkedIn">
+              <img id="resumeIcon" src="assets/images/resume icon 200x200px.png" alt="Resume">
+              <img id="mailIcon" src="assets/images/mail 32x32.png" alt="Mail">
+          </div>
+          </div>
+        </div>
+      </div>
     </section>
 
   </div>
 
-  <footer id="footer">
-    <div class="container">
-      Copyright &copy;
-    </div>
+
+  <footer class="footer">
+    <div class="two-toned-footer-color"></div>
+    <p class="text-muted text-muted-footer text-center">
+      &copy; Copyright
+    </p>
   </footer>
-</body>
+
+
 
 </html>
