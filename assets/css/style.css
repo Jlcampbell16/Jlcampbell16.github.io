@@ -78,6 +78,7 @@ h1 {
 }
 
 img.auth-image {
+  height: 300px;
   width: 100%;
   max-width: 200px;
   border: 2px solid #67bffa;
@@ -92,28 +93,79 @@ img.auth-image {
 }
 
 .icons {
-  align-content: center;
+  text-align: center;
+  padding: 5px; 
+  margin: 5px;
 }
 
 /* PORTFOLIO */
 img {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
 }
 
 
-h3 {
+h3,.projectTitle {
   background-color: #67bffa;
   color: #ffffff;
+  font-size: 18px;
   text-align: center;
   padding: 5px;
-  width: 300px;
+  width: 250px;
 }
 
+.projectIcon {
+  height: 40px;
+  width: auto;
+  padding: 2px;
+
+}
 .work {
   margin: 10px auto;
 }
 
+/* ========================================================================= */
+.projectContainer {
+  position: relative;
+  width: 100%;
+}
+
+.projectImage {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.projectContainer:hover .image {
+  opacity: 0.3;
+}
+
+.projectContainer:hover .middle {
+  opacity: 0.8;
+}
+
+.projectText {
+  background-color: #67bffa;
+  color: white;
+  font-size: 18px;
+  padding: 16px 32px;
+}
+
+/* ============================================================================== */
 /* CONTACT */
 #btn:hoover {
   color: #67bffa;
@@ -152,8 +204,8 @@ section.main-section {
   margin-left: 50px;
 }
 
-.work { 
-  width: 46%;
+img.auth-image {
+ height: auto;
 }
 }
 
@@ -186,6 +238,7 @@ a#logo, nav {
 
 img.auth-image {
   width: 100%;
+
 }
 section.main-section {
   width: 95%;
