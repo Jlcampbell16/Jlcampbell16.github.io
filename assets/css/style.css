@@ -6,12 +6,13 @@
 body {
 background: url(../Images/hexellence_@2X.png);
 font-family: Arial, Helvetica, sans-serif;
+height: 100%;
 }
 
-html {
+/* html {
   position: relative;
   min-height: 100%;
-}
+} */
 
 main {
   margin:80px 0;
@@ -61,6 +62,7 @@ main {
 /* CONTENT */
 #main-container {
   padding-top: 20px;
+  margin-bottom: 20px;
 }
 
 .main-section {
@@ -183,7 +185,7 @@ footer {
   width: 100%;
   border-top: 8px solid #67bffa;
   padding: 30px 0;
-  position: absolute;
+  /* position: absolute; */
   bottom: 0;
   }
   
