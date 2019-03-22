@@ -6,7 +6,7 @@
 body {
 background: url(../Images/hexellence_@2X.png);
 font-family: Arial, Helvetica, sans-serif;
-height: 100%;
+
 }
 
 /* html {
@@ -48,6 +48,7 @@ main {
 .navbar {
   background: white;
   border: none;
+  
 }
 
 /* media query for nav background color change */
@@ -63,6 +64,7 @@ main {
 #main-container {
   padding-top: 20px;
   margin-bottom: 20px;
+  height: 100vh;
 }
 
 .main-section {
