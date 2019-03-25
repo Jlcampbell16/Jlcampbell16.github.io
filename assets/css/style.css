@@ -48,7 +48,6 @@ main {
 .navbar {
   background: white;
   border: none;
-  
 }
 
 /* media query for nav background color change */
@@ -64,13 +63,13 @@ main {
 #main-container {
   padding-top: 20px;
   margin-bottom: 20px;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .main-section {
   width: 100%;
   max-width: 960px;
-  margin: 0 0 40px;
+  margin: 0 auto;
   padding: 30px;
   background:#ffffff;
   border: 1px solid #dddddd;
