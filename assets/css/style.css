@@ -63,7 +63,7 @@ main {
 #main-container {
   padding-top: 20px;
   margin-bottom: 30px;
-  height: 150vh;
+  min-height: 150vh;
   
 }
 
