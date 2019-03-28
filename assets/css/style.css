@@ -63,8 +63,7 @@ main {
 #main-container {
   padding-top: 20px;
   margin-bottom: 30px;
-  min-height: 150vh;
-  
+  min-height: 50vh;
 }
 
 .main-section {
@@ -101,7 +100,7 @@ img.auth-image {
   padding: 5px; 
   margin: 5px;
 }
-
+/* ____________________________________________________________________________________________ */
 /* PORTFOLIO */
 img {
   width: 250px;
@@ -118,12 +117,6 @@ h3,.projectTitle {
   width: 250px;
 }
 
-.projectIcon {
-  height: 40px;
-  width: auto;
-  padding: 2px;
-
-}
 .work {
   margin: 10px auto;
 }
@@ -169,14 +162,23 @@ h3,.projectTitle {
   padding: 16px 32px;
 }
 
+.projectIcon {
+  height: 40px;
+  width: auto;
+  padding: 2px;
+
+}
+
 /* ============================================================================== */
+/* ____________________________________________________________________________________________ */
+
 /* CONTACT */
 #btn:hoover {
   color: #67bffa;
   border: 1px solid #67bffa;
 }
 
-
+/* ____________________________________________________________________________________________ */
 /* FOOTER */
 footer {
   background: #666666;
@@ -191,7 +193,7 @@ footer {
   bottom: 0;
   }
   
-
+/* ____________________________________________________________________________________________ */
 /* MEDIA QUERY */
 
 @media screen and (max-width:980px) {
