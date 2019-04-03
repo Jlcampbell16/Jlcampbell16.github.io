@@ -9,6 +9,10 @@ font-family: Arial, Helvetica, sans-serif;
 
 }
 
+#masthead {
+  padding: 0;
+}
+
 /* html {
   position: relative;
   min-height: 100%;
@@ -20,7 +24,7 @@ main {
 
 .block {
   background-color: #ffffff;
-  padding: 30px;
+  /* padding: 30px; */
   margin-bottom: 30px;
 }
 
@@ -36,8 +40,8 @@ main {
   font-family: Georgia, Times, "Times New Roman", serif;
   background: #67bffa;
   color: #ffffff;  
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 32px;
+  font-weight: 700;
   padding: 10px;
 }
 
@@ -46,8 +50,17 @@ main {
 }
 
 .navbar {
-  background: white;
+  background: #ffffff;
   border: none;
+}
+
+.navlink {
+  float: right;
+  border-left: 1px solid #dddddd;
+}
+
+.navlink:last-child {
+  border-left: none;
 }
 
 /* media query for nav background color change */
@@ -93,6 +106,7 @@ img.auth-image {
 #mailIcon {
   width: 32px;
   height: 32px;
+  border: none;
 }
 
 .icons {
@@ -105,6 +119,9 @@ img.auth-image {
 img {
   width: 250px;
   height: 250px;
+  object-fit: cover;
+  border: 1.5px solid #67bffa;
+
 }
 
 
@@ -134,6 +151,7 @@ h3,.projectTitle {
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
+ 
 }
 
 .middle {
