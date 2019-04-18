@@ -1,3 +1,8 @@
+/* CORAL HEX #f97171  #f99192  #86ebe0  #00ddcc*/
+/* MINT HEX #66beb2 	#8ad6cc  	#b2eee6 */
+/* BLUE HEX #f9717 */
+
+
 * {
   box-sizing: border-box;
 }
@@ -23,23 +28,22 @@ main {
   margin:80px 0;
 }
 
-.block {
+/* .block {
   background-color: #ffffff;
-  /* padding: 30px; */
   margin-bottom: 30px;
 }
 
 .block-header {
-  color: #67bffa;
+  color: #f97171;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
-}
+} */
 /* ____________________________________________________________________________________________ */
 /* NAV BAR */
 
-#logo {
+/* #logo {
   font-family: 'Shadows Into Light', cursive;
-  background: #67bffa;
+  background: #f97171;
   color: #ffffff;  
   font-size: 32px;
   font-weight: 700;
@@ -47,7 +51,7 @@ main {
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  color: #67bffa;
+  color: #f97171;
 }
 
 .navbar {
@@ -64,9 +68,10 @@ main {
 /* media query for nav background color change */
 @media only screen and (max-width: 767px) {
   .navbar-header {
-    background-color: #67bffa;
+    background-color: #f97171
+;
   }
-}
+} 
 /* ____________________________________________________________________________________________ */
 
 
@@ -83,11 +88,11 @@ main {
   margin: 0 auto;
   padding: 30px;
   background:#ffffff;
-  border: 1px solid #dddddd;
+  /* border: 1px solid #dddddd; */
 }
 
 h1, h4 {
-  color: #67bffa;
+  color: #f97171;
   border-bottom: 2px solid #dddddd;
   font-family: 'Shadows Into Light', cursive;
 }
@@ -97,11 +102,12 @@ font-family: 'Pavanam', sans-serif;
 }
 
 img.auth-image {
-  height: 300px;
-  width: 100%;
+  height: 250px;
+  width: 200px;
   max-width: 200px;
-  border: 2px solid #67bffa;
+  border: 2px solid #f97171;
   border-radius: 6px;
+  object-fit: cover;
 }
 
 #githubIcon,
@@ -118,19 +124,28 @@ img.auth-image {
   padding: 5px; 
   margin: 5px;
 }
+
+/* .fa-github,
+.fa-linkedin-in,
+.fa-file,
+.fa-envelope {
+  height: 25px;
+} */
+
+
 /* ____________________________________________________________________________________________ */
 /* PORTFOLIO
 img {
   width: 250px;
   height: 250px;
   object-fit: cover;
-  border: 1.5px solid #67bffa;
+  border: 1.5px solid #f97171;
 
 }
 
 
 h3,.projectTitle {
-  background-color: #67bffa;
+  background-color: #f97171;
   color: #ffffff;
   font-size: 18px;
   text-align: center;
@@ -178,7 +193,7 @@ h3,.projectTitle {
 }
 
 .projectText {
-  background-color: #67bffa;
+  background-color: #f97171;
   color: white;
   font-size: 18px;
   padding: 16px 32px;
@@ -196,8 +211,8 @@ h3,.projectTitle {
 
 /* CONTACT */
 #btn:hoover {
-  color: #67bffa;
-  border: 1px solid #67bffa;
+  color: #f97171;
+  border: 1px solid #f97171;
 }
 
 /* ____________________________________________________________________________________________ */
@@ -209,7 +224,7 @@ footer {
   font-size: 12px;
   height: 50px;
   width: 100%;
-  border-top: 8px solid #67bffa;
+  border-top: 8px solid #f97171;
   padding: 30px 0;
   /* position: absolute; */
   bottom: 0;
@@ -242,7 +257,7 @@ body {
   flex-wrap: wrap;
   max-width: 1000px;
 }
-.heading {
+/* .heading {
   width: 100%;
   margin-left: 1rem;
   font-weight: 900;
@@ -268,7 +283,7 @@ body {
   margin-top: 0;
   margin-left: 1rem;
   margin-bottom: 3rem;
-}
+} */
 .card {
   color: inherit;
   cursor: pointer;
@@ -413,10 +428,6 @@ body {
   top: 12px;
 }
 
-
-
-
-
 /* ____________________________________________________________________________________________ */
 /* MEDIA QUERY */
 
@@ -451,10 +462,10 @@ section.main-section {
 }
 
 @media screen and (max-width:640px) {
-  #masthead {
+  /* #masthead {
   position: static;
   top: 0;
-}
+} */
 
 a#logo, nav {
   width: 100%;
@@ -474,14 +485,14 @@ section.main-section {
   width: 95%;
 }
 
-.work {
+/* .work {
   width: 100%;
 }
 
 .form#contact-form {
    width: 100%
-  /* margin-left: 20px; */
-}
+  margin-left: 20px;
+} */
 
 }
   
