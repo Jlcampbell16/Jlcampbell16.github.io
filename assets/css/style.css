@@ -114,12 +114,14 @@ img.auth-image {
 #linkedinIcon,
 #resumeIcon,
 #mailIcon {
+
   width: 32px;
   height: 32px;
   border: none;
 }
 
 .icons {
+  color: #f97171;
   text-align: center;
   padding: 5px; 
   margin: 5px;
@@ -347,7 +349,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, #1a9be6, #1a57e6);
+  background: linear-gradient(135deg, #66beb2, #66beb2);
   opacity: 0.25;
   z-index: -1;
 }
@@ -363,11 +365,11 @@ body {
   padding: 0 2em;
 }
 .back .button {
-  background: linear-gradient(135deg, #1a9be6, #1a57e6);
+  background: linear-gradient(135deg, #66beb2, #66beb2);
 }
 .back .button:before {
-  box-shadow: 0 0 10px 10px rgba(26, 87, 230, 0.25);
-  background-color: rgba(26, 87, 230, 0.25);
+  box-shadow: 0 0 10px 10px rgba(13, 114, 117, 0.25);
+  background-color: rgba(13, 114, 117, 0.25);
 }
 .card:hover .back {
   transform: rotateY(0deg);
@@ -376,7 +378,7 @@ body {
   transform: rotateY(180deg);
 }
 .card:nth-child(even) .back .button {
-  background: linear-gradient(135deg, #e61a80, #e61a3c);
+  background: linear-gradient(135deg, #f97171, #f97171);
 }
 .card:nth-child(even) .back .button:before {
   box-shadow: 0 0 10px 10px rgba(230, 26, 60, 0.25);
