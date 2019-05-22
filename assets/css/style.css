@@ -306,6 +306,10 @@ body {
   object-fit: cover;
 }
 
+#meetInTheMiddleImg {
+  height: 275px;
+}
+
 @media screen and (max-width: 800px) {
   .card {
     width: calc(50% - 2rem);
